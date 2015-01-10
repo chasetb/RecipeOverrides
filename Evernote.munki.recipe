@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.Evernote</string>
+	<key>Input</key>
+	<dict>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>apps/evernote</string>
+		<key>NAME</key>
+		<string>Evernote</string>
+		<key>SPARKLE_FEED_URL</key>
+		<string>http://update.evernote.com/public/ENMac/EvernoteMacUpdate.xml</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>Staging</string>
+			</array>
+			<key>category</key>
+			<string>Productivity</string>
+			<key>description</key>
+			<string>&lt;html&gt;&lt;p&gt;&lt;b&gt;Remember Everything with Evernote&lt;/b&gt;&lt;/p&gt;&lt;br&gt;&lt;p&gt;Evernote is an easy-to-use, free app that helps you remember everything across all of the devices you use. Stay organized, save your ideas and improve your productivity. Evernote lets you take notes, snap photos, create to-do lists, scan business cards, record voice reminders--and it makes everything searchable, whether you are at home, at work, or on the go.&lt;/p&gt;&lt;/html&gt;</string>
+			<key>developer</key>
+			<string>Evernote</string>
+			<key>display_name</key>
+			<string>Evernote</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.autopkg.munki.Evernote</string>
+</dict>
+</plist>

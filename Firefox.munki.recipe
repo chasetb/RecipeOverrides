@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.Firefox</string>
+	<key>Input</key>
+	<dict>
+		<key>LOCALE</key>
+		<string>en_US</string>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>apps/mozilla</string>
+		<key>NAME</key>
+		<string>Firefox</string>
+		<key>RELEASE</key>
+		<string>latest</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>Staging</string>
+			</array>
+			<key>category</key>
+			<string>Productivity</string>
+			<key>developer</key>
+			<string>Mozilla</string>
+			<key>description</key>
+			<string>&lt;html&gt;&lt;p&gt;&lt;b&gt;Commited to You, Your Privacy, and an Open Web.&lt;/b&gt;&lt;/p&gt;&lt;br&gt;&lt;p&gt;Mozilla Firefox is a free web browser. It is one of the products of the Mozilla open source software project, supported by the Mozilla Foundation. Firefox is an application platform.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Mozilla was the first to implement the Do No Track privacy feature. Firefox also features customizable security settings to manage passwords, history, private data, cookies, site options and add-ons.&lt;/p&gt;&lt;/html&gt;</string>
+			<key>display_name</key>
+			<string>Mozilla Firefox</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.autopkg.munki.firefox-rc-en_US</string>
+</dict>
+</plist>
