@@ -24,6 +24,8 @@
 			<string>&lt;html&gt;&lt;p&gt;&lt;b&gt;Bring Your Photos, Docs, and Videos Anywhere.&lt;/b&gt;&lt;/p&gt;&lt;br&gt;&lt;p&gt;Dropbox is a free service that lets you access any file you save to your Dropbox from all your computers, iPhone, iPad, and the web. With Dropbox you’ll always have your important memories and work with you.&lt;/p&gt;&lt;/html&gt;</string>
 			<key>display_name</key>
 			<string>Dropbox</string>
+			<key>unattended_install</key>
+            <true/>
 			<key>name</key>
 			<string>%NAME%</string>
 			<key>postinstall_script</key>
