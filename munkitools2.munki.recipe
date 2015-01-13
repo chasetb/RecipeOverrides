@@ -38,16 +38,14 @@
 		<string>support/munki</string>
 		<key>NAME</key>
 		<string>munkitools2</string>
-		<dict>
-			<key>catalogs</key>
-			<array>
-				<string>Staging</string>
-			</array>
-			<key>category</key>
-			<string>Support</string>
-			<key>developer</key>
-			<string>Munki</string>
-		</dict>
+		<key>catalogs</key>
+		<array>
+			<string>Staging</string>
+		</array>
+		<key>category</key>
+		<string>Support</string>
+		<key>developer</key>
+		<string>Munki</string>
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.autopkg.munki.munkitools2</string>
