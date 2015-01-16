@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.GoogleDrive</string>
+	<key>Input</key>
+	<dict>
+		<key>DOWNLOAD_URL</key>
+		<string>https://dl.google.com/drive/installgoogledrive.dmg</string>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>apps/google</string>
+		<key>NAME</key>
+		<string>Google Drive</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>Staging</string>
+			</array>
+			<key>category</key>
+			<string>File Sharing</string>
+			<key>description</key>
+			<string>&lt;html&gt;&lt;p&gt;&lt;b&gt;See Your Stuff Anywhere&lt;/b&gt;&lt;/p&gt;&lt;br&gt;&lt;p&gt;Google Drive starts you with 15 GB of free Google storage, so you can keep pictures, stories, designs, drawings, recordings, videos – anything. Your files in Drive can be reached from any smartphone, tablet, or computer. So wherever you go, your files follow.&lt;/p&gt;&lt;p&gt;You can quickly invite others to view, download, and collaborate on all the files you want–no email attachment needed. Get started with Drive for free.&lt;/p&gt;&lt;/html&gt;</string>
+			<key>developer</key>
+			<string>Google</string>
+			<key>display_name</key>
+			<string>Google Drive</string>
+			<key>minimum_os_version</key>
+			<string>10.6</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>postinstall_script</key>
+			<string>#!/bin/sh
+
+# Appreciatively copied from
+# https://github.com/Ginja/Admin_Scripts/blob/master/google_drive_helper.rb
+
+cp \
+        '/Applications/Google Drive.app/Contents/Helpers/Google Drive Icon Helper' \
+        '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
+
+chmod 6755 '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
+chown root:procmod '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
+</string>
+			<key>postuninstall_script</key>
+			<string>#/bin/sh
+
+rm '/Library/PrivilegedHelperTools/Google Drive Icon Helper'
+</string>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.dankeller.munki.GoogleDrive</string>
+</dict>
+</plist>
