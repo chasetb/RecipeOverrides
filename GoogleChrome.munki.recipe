@@ -23,7 +23,7 @@
 			<key>developer</key>
 			<string>Google</string>
 			<key>description</key>
-			<string>&lt;html&gt;&lt;p&gt;&lt;b&gt;Fast, Simple, and Secure Web Browser, Built for the Modern Web&lt;/b&gt;&lt;/p&gt;&lt;br&gt;&lt;p&gt;Chrome is designed to be fast in every possible way. Chrome's browser window is streamlined, clean and simple; and, it’s designed to keep you safer and more secure on the web with built-in malware and phishing protection, auto-updates to make sure you have all the latest security fixes, and more.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Signing in to Chrome brings your bookmarks, history, and other settings to all your computers. It also automatically signs you in to all your favorite Google services.&lt;/p&gt;&lt;/html&gt;</string>
+			<string>&lt;html&gt;&lt;p&gt;&lt;b&gt;Fast, Simple, and Secure Web Browser, Built for the Modern Web&lt;/b&gt;&lt;/p&gt;&lt;br&gt;&lt;p&gt;Chrome is designed to be fast in every possible way. Chrome's browser window is streamlined, clean and simple; and, it’s designed to keep you safer and more secure on the web with built-in malware and phishing protection, auto-updates to make sure you have all the latest security fixes, and more.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Signing in to Chrome brings your bookmarks, history, and other settings to all your computers. It also automatically signs you in to all your favorite Google services.&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;img src="https://raw.githubusercontent.com/chasetb/munki_artwork/master/GoogleChrome.png"&gt;&lt;/html&gt;</string>
 			<key>display_name</key>
 			<string>Google Chrome</string>
 			<key>name</key>
