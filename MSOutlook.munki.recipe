@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.MSOutlook</string>
+	<key>Input</key>
+	<dict>
+		<key>CULTURE_CODE</key>
+		<string>0409</string>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>apps/microsoft</string>
+		<key>NAME</key>
+		<string>Outlook</string>
+		<key>VERSION</key>
+		<string>latest</string>
+		<key>display_name</key>
+		<string>Microsoft Outlook for Mac</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>blocking_applications</key>
+			<array>
+				<string>Microsoft Outlook</string>
+				<string>Microsoft Error Reporting</string>
+				<string>Microsoft Auto Update</string>
+			</array>
+			<key>category</key>
+			<string>Productivity</string>
+			<key>developer</key>
+			<string>Microsoft</string>
+			<key>catalogs</key>
+			<array>
+				<string>Staging</string>
+			</array>
+			<key>category</key>
+			<string>Productivity</string>
+			<key>minimum_os_version</key>
+			<string>10.9.3</string>
+			<key>update_for</key>
+			<array>
+				<string>Outlook</string>
+			</array>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.arubdesu.munki.OutlookInstaller</string>
+</dict>
+</plist>
