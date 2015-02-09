@@ -32,8 +32,6 @@
 			<array>
 				<string>Staging</string>
 			</array>
-			<key>category</key>
-			<string>Productivity</string>
 			<key>minimum_os_version</key>
 			<string>10.9.3</string>
 			<key>update_for</key>
