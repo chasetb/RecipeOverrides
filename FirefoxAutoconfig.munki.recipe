@@ -33,7 +33,7 @@
 			<key>developer</key>
 			<string>Mozilla</string>
 			<key>description</key>
-			<string>&lt;html&gt;&lt;p&gt;&lt;b&gt;Commited to You, Your Privacy, and an Open Web.&lt;/b&gt;&lt;/p&gt;&lt;br&gt;&lt;p&gt;Mozilla Firefox is a free web browser. It is one of the products of the Mozilla open source software project, supported by the Mozilla Foundation. Firefox is an application platform.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Mozilla was the first to implement the Do No Track privacy feature. Firefox also features customizable security settings to manage passwords, history, private data, cookies, site options and add-ons. This install will include the Omnibar extension as well.&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;img src=“https://raw.githubusercontent.com/chasetb/munki_artwork/master/Firefox.png”&gt;&lt;/html&gt;</string>
+			<string>&lt;html&gt;&lt;p&gt;&lt;b&gt;Commited to You, Your Privacy, and an Open Web.&lt;/b&gt;&lt;/p&gt;&lt;br&gt;&lt;p&gt;Mozilla Firefox is a free web browser. It is one of the products of the Mozilla open source software project, supported by the Mozilla Foundation. Firefox is an application platform.&lt;/p&gt;&lt;br&gt;&lt;p&gt;Mozilla was the first to implement the Do No Track privacy feature. Firefox also features customizable security settings to manage passwords, history, private data, cookies, site options and add-ons. This install will include the Omnibar extension as well.&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;img src="https://raw.githubusercontent.com/chasetb/munki_artwork/master/Firefox.png"&gt;&lt;/html&gt;</string>
 			<key>display_name</key>
 			<string>Mozilla Firefox</string>
 			<key>name</key>

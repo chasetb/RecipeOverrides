@@ -21,7 +21,7 @@
 			<key>category</key>
 			<string>Productivity</string>
 			<key>description</key>
-			<string>&lt;html&gt;&lt;p&gt;&lt;b&gt;Remember Everything with Evernote&lt;/b&gt;&lt;/p&gt;&lt;br&gt;&lt;p&gt;Evernote is an easy-to-use, free app that helps you remember everything across all of the devices you use. Stay organized, save your ideas and improve your productivity. Evernote lets you take notes, snap photos, create to-do lists, scan business cards, record voice reminders--and it makes everything searchable, whether you are at home, at work, or on the go.&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;imgsrc=“https://raw.githubusercontent.com/chasetb/munki_artwork/master/Evernote.png”&gt;&lt;/html&gt;</string>
+			<string>&lt;html&gt;&lt;p&gt;&lt;b&gt;Remember Everything with Evernote&lt;/b&gt;&lt;/p&gt;&lt;br&gt;&lt;p&gt;Evernote is an easy-to-use, free app that helps you remember everything across all of the devices you use. Stay organized, save your ideas and improve your productivity. Evernote lets you take notes, snap photos, create to-do lists, scan business cards, record voice reminders--and it makes everything searchable, whether you are at home, at work, or on the go.&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;imgsrc="https://raw.githubusercontent.com/chasetb/munki_artwork/master/Evernote.png"&gt;&lt;/html&gt;</string>
 			<key>developer</key>
 			<string>Evernote</string>
 			<key>display_name</key>
