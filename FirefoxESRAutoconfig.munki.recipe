@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.FirefoxAutoconfig</string>
+	<key>Input</key>
+	<dict>
+		<key>AUTOCONFIG_DIR</key>
+		<string>Contents/Resources/</string>
+		<key>AUTOCONFIG_FILENAME</key>
+		<string>autoconfig.zip</string>
+		<key>LOCALE</key>
+		<string>en_US</string>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>apps/mozilla</string>
+		<key>NAME</key>
+		<string>Firefox_ESR</string>
+		<key>ORG_NAME</key>
+		<string>Customized</string>
+		<key>PKG_ID</key>
+		<string>org.mozilla.firefox.pkg</string>
+		<key>RELEASE</key>
+		<string>latest</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>Staging</string>
+			</array>
+			<key>category</key>
+			<string>Productivity</string>
+			<key>developer</key>
+			<string>Mozilla</string>
+			<key>description</key>
+			<string>&lt;html&gt;&lt;p&gt;&lt;b&gt;Commited to You, Your Privacy, and an Open Web.&lt;/b&gt;&lt;/p&gt;&lt;br&gt;&lt;p&gt;Mozilla Firefox is a free web browser. It is one of the products of the Mozilla open source software project, supported by the Mozilla Foundation. Mozilla offers an Extended Support Release (ESR) based on an official release of Firefox for desktop for use by organizations including schools, universities, businesses and others who need extended support for mass deployments. Mozilla Firefox ESR is meant for organizations that manage their client desktops, including schools, businesses and other instituitions that want to offer Firefox. This install will include the Omnibar extension as well.&lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;img src="https://raw.githubusercontent.com/chasetb/munki_artwork/master/Firefox.png"&gt;&lt;/html&gt;</string>
+			<key>display_name</key>
+			<string>Mozilla Firefox</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.gregneagle.munki.FirefoxESRAutoconfig</string>
+</dict>
+</plist>
