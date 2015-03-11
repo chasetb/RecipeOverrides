@@ -8,6 +8,8 @@
 	<dict>
 		<key>DOWNLOAD_URL</key>
 		<string>https://github.com/munki/munki/releases</string>
+		<key>INCLUDE_PRERELEASES</key>
+		<string></string>
 		<key>MUNKITOOLS_ADMIN_DESCRIPTION</key>
 		<string>Command-line Managed Software Center admin tools.</string>
 		<key>MUNKITOOLS_ADMIN_DISPLAYNAME</key>
@@ -48,6 +50,6 @@
 		<string>Munki</string>
 	</dict>
 	<key>ParentRecipe</key>
-	<string>com.github.autopkg.munki.munkitools2</string>
+	<string>local.munki.munkitools2</string>
 </dict>
 </plist>
