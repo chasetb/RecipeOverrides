@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>local.munki.AdwareMedic</string>
+	<key>Input</key>
+	<dict>
+		<key>APPCAST_URL</key>
+		<string>http://www.adwaremedic.com/versions/updates.xml</string>
+		<key>APP_DESTINATION</key>
+		<string>/Applications/Utilities</string>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>apps/thesafemac</string>
+		<key>NAME</key>
+		<string>AdwareMedic</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>Staging</string>
+			</array>
+			<key>category</key>
+			<string>Utilities</string>
+			<key>description</key>
+			<string>&lt;html&gt;&lt;p&gt;Removes all known adware from your Mac. It is very simple to use, and should clean up your system in less than a minute, from start to finish. Just open the app, click the Scan for Adware button, and remove anything that is detected. That's it!&lt;/p&gt;&lt;br&gt;&lt;p&gt;If AdwareMedic doesn’t solve your problem, it includes the ability to take a system snapshot that can help find possible sources for the problem. This both helps you get rid of the adware and helps others by improving the app!&lt;/p&gt;&lt;/html&gt;</string>
+			<key>developer</key>
+			<string>The Safe Mac</string>
+			<key>display_name</key>
+			<string>Adware Medic</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+			<key>uninstallable</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.wardsparadox.adwaremedic.munki</string>
+</dict>
+</plist>
