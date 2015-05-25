@@ -42,7 +42,7 @@
 		<string>munkitools2</string>
 		<key>catalogs</key>
 		<array>
-			<string>Staging</string>
+			<string>testing</string>
 		</array>
 		<key>category</key>
 		<string>Support</string>

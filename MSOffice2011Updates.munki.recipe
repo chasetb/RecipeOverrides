@@ -46,7 +46,7 @@
 			</array>
 			<key>catalogs</key>
 			<array>
-				<string>Staging</string>
+				<string>testing</string>
 			</array>
 			<key>category</key>
 			<string>Productivity</string>
